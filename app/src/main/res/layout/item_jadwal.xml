@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tanggalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal" />
+
+    <TextView
+        android:id="@+id/segmenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segmen" />
+
+    <TextView
+        android:id="@+id/nkabTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NKAB" />
+
+    <TextView
+        android:id="@+id/nprovTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NPROV" />
+
+</LinearLayout>
